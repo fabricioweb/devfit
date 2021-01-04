@@ -5,7 +5,11 @@ import StarterIntro from '../screens/StarterIntro';
 const StarterStack = createStackNavigator();
 
 export default ()=>(
-    <StarterStack.Navigator>
+    <StarterStack.Navigator
+        screenOptions={{
+            headerShown: false
+        }}
+    >
         <StarterStack.Screen name='Intro' component={StarterIntro} />
     </StarterStack.Navigator>
 )
