@@ -75,7 +75,7 @@ export default (props) => {
             </WorkoutInfo>
             <WorkoutActions>
                 <WorkoutButton onPress={()=>addWorkout()} underlayColor="transparent">
-                    <WorkoutButtonImage source={included?require('../assets/check-black.png'):require('../assets/add.png')} />
+                    <WorkoutButtonImage source={included ? require('../assets/check-black.png') : require('../assets/add.png')} />
                 </WorkoutButton>
             </WorkoutActions>
         </Workout>
